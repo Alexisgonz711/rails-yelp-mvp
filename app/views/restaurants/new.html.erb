@@ -1,0 +1,9 @@
+ <div class="container my-4">
+  <h1>Add a new restaurant</h1>
+
+  <%= render "form", restaurant: @restaurant %>
+
+    <div class="mt-4">
+      <%= link_to 'back to list', restaurants_path, class: "btn btn-outline-secondary" %>
+    </div>
+ </div>
